@@ -6,7 +6,7 @@
 #    By: marallorente <marallorente@student.42.f    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/12 11:27:03 by marllore          #+#    #+#              #
-#    Updated: 2024/02/26 16:36:52 by marallorent      ###   ########.fr        #
+#    Updated: 2024/03/02 11:06:25 by marallorent      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,6 +32,7 @@ SRCS = ft_isalpha.c \
 	   ft_toupper.c \
 	   ft_tolower.c \
 	   ft_strchr.c \
+	   ft_strrchr.c \
 	  
 			  
 OBJS		= $(SRCS:.c=.o)
